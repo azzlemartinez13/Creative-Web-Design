@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Material icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <link rel="stylesheet" href="style.css">
+    <title>Collections</title>
+  <!--INTERNAL-->  
+    <!-- <style>
+        #content-up {
+            margin: 500px;
+        }
+    </style> -->
+</head>
+<body>
+    <!--STANDARD menu-->
+    <nav>
+        <div class="nav-wrapper">
+            <div class="container">
+                <a href="#" class="brand-logo">Web Design</a>
+                <ul id="nav-mobile" class="right hide-on-small-and-down">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Collections-->
+    <div class="container">
+       <h1 class="grey-text">Collections</h1>
+       <ul class="collection">
+           <li class="collection-item">First Item</li>
+           <li class="collection-item">Second Item</li>
+           <li class="collection-item">Third Item</li>
+           <li class="collection-item">Fourth Item</li>
+       </ul>
+
+    <!--Collection as Links--> 
+        <div class="collection">
+            <a href="#" class="collection-item">First Item</a>
+            <a href="#" class="collection-item">Second Item</a>
+            <a href="index.html" class="collection-item">Third Item</a>
+            <a href="https://materializecss.com/sidenav.html"><i class="collection-item">Side Nav</i></a>
+
+    <!--BADGES-->
+        <a href="#" class="collection-items">
+            <span class="badge">55</span>Fifth Item
+        </a>
+        <a href="#" class="collection-items">
+            <span class="badge new">55</span>Fifth Item
+        </a>
+        
+    <!--With header-->
+    <ul class="collection with-header">
+        <li class="collection-header">
+            <h4>Items</h4>
+        </li>    
+            <li class="collection-item">First Item</li>
+            <li class="collection-item">Second Item</li>
+            <li class="collection-item">Third Item</li>
+            <li class="collection-item">Fourth Item</li>
+    </ul> 
+    
+    <!--Secondary Content-->
+    <ul class="collection with-header">
+        <li class="collection-header">
+            <h4>items</h4>
+            <li class="collection-item">
+                <div>First Item
+                    <a href="#" class="secondary-content"><i
+                     class="material-icons">close</i></a>
+                </div>
+            </li>
+            <li class="collection-item">
+                <div>Second Item
+                    <a href="#" class="secondary-content"><i
+                     class="material-icons">close</i></a>
+                </div>
+            </li>
+            <li class="collection-item">
+                <div>Thirdt Item
+                    <a href="#" class="secondary-content"><i
+                     class="material-icons">close</i></a>
+                </div>
+            </li>
+            <li class="collection-item">
+                <div>Fourth Item
+                    <a href="#" class="secondary-content">
+                        <i class="material-icons">close</i></a>
+                </div>
+            </li>
+        </li>
+    </ul>
+
+    <!--Avatar Content-->
+    <ul class="collection">
+        <li class="collection-item avatar">
+            <i class="material-icons blue circle">contacts</i>
+        <span class="title">John Doe</span>
+            <p>jdoe@gmail.com
+               <br> 13123-412421
+            </p>
+        <a href="#" class="secondary-content">
+            <i class="material-icons">grade</i>
+        </a>    
+            </li>
+    </ul>
+
+    <!--BADGE IN DROPDOWN-->
+    <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Dropdown
+        <i class="material-icons">arrow_drop_down</i>
+    </a>
+    <ul class="dropdown-content" id="dropdown1">
+        <li>
+            <a href="">Item 1
+                <span class="badge">44</span>
+            </a>
+        </li>
+        <li>
+            <a href="">Item 2
+                <span class="badge new">44</span>
+            </a>
+        </li>
+    </ul>
+    </a>
+    </div>
+
+    <!--MOVES CONTENT -->
+    <div id="content-up"></div>"
+
+
+
+    
+
+  <!-- Jquery CDN -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+  <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script>
+    // <!-- $('.drop-down-button'),dropdown({
+    //     constrainWidth: false,
+    //     hover: true,
+    //     belowOriginal: true;
+    //     alignment: 'left'
+    // }); -->
+    $('.dropdown-trigger').dropdown();
+
+  </script>
+</body>
+</html>
